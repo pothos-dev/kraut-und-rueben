@@ -19,10 +19,10 @@ Richtung 30.
 
 ## Tracker-Woche
 
-Zählfenster des Trackers (ADR 0008): eine **ISO-Kalenderwoche, Montag 00:00
-bis Sonntag 24:00** (in der User-Timezone). Am Montag resetten Punkte und
-Deduplikation. Das Datenmodell bleibt für spätere Wochen-Definitionen
-erweiterbar (`week_start` explizit).
+Zählfenster des Trackers (ADR 0008, 0009): eine **ISO-Kalenderwoche,
+Montag 00:00 UTC bis Sonntag 24:00 UTC**. Am Montag (UTC) resetten Punkte
+und Deduplikation. Das Datenmodell bleibt für spätere Wochen-Definitionen
+erweiterbar (`week_start` explizit als UTC-Datum).
 
 ## Rezepte-Seite
 
@@ -63,4 +63,3 @@ je 1 Punkt; Öle, Säfte, Wein und Tee zählen nicht.
 
 - **Generischer Log:** Was passiert bei „Paprika“ ohne Farbangabe? (zu
   klären bei der Logging-UX)
-- **Timezone der Tracker-Woche:** feste EU-Zone vs. pro User? (folgt aus ADR 0008)
