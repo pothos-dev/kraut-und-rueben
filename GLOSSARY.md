@@ -58,6 +58,8 @@ je 1 Punkt; Öle, Säfte, Wein und Tee zählen nicht.
 
 - **SvelteKit** — Full-Stack-Web-Framework (UI, SSR für Rezepte, API-Routen).
 - **Supabase** — Backend: Postgres, Auth, Row Level Security (ADR 0005 + 0007).
+- **Auth** — OAuth, Provider **Google** verpflichtend; **Apple** ggf.
+  (ADR 0010). Kein Passwort-/Magic-Link-Flow in v1.
 
 ## Offene Begriffsfragen
 
