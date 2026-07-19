@@ -30,6 +30,8 @@ Zähleinheit des Wochen-Trackers (ADR 0002): Jede **verschiedene
 Hauptpflanze** (Gemüse, Obst, Nüsse, Samen, Hülsenfrüchte,
 (Vollkorn-)Getreide) = **1 Punkt**; jedes verschiedene **Kraut/Gewürz** =
 **¼ Punkt**. Wochenziel: **30 Punkte**. Jede Pflanze zählt einmal pro Woche.
+Zusätzlich zählen Kaffee und dunkle Schokolade (≥ 70 % Kakao) je 1 Punkt
+(ADR 0004).
 
 ## Sorte
 
@@ -38,8 +40,14 @@ zählen **separat** (rote ≠ gelbe Paprika; Grünkohl ≠ Brokkoli). Die
 Taxonomie ist hierarchisch: Pflanze → Sorten; die Wochen-Deduplikation läuft
 auf Sorten-Ebene.
 
+## Ballaststoff-Test
+
+Daumenregel für Kategorie-Grenzfälle (ADR 0004): Eine Kategorie zählt, wenn
+sie nennenswert Ballaststoffe/Polyphenole der Pflanze liefert — nicht, wenn
+sie nur Extrakt ist. Danach zählen Kaffee und dunkle Schokolade (≥ 70 %)
+je 1 Punkt; Öle, Säfte, Wein und Tee zählen nicht.
+
 ## Offene Begriffsfragen
 
-- **Kategorie-Umfang:** Zählen Kaffee, Olivenöl, dunkle Schokolade o. Ä.?
 - **Generischer Log:** Was passiert bei „Paprika" ohne Farbangabe? (zu
   klären bei der Logging-UX)
