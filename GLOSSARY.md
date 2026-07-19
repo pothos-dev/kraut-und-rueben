@@ -24,8 +24,15 @@ Jedes Rezept weiß, welche und wie viele verschiedene Pflanzen es liefert, und
 dient Nutzern als Inspiration bzw. „Lückenfüller" für noch fehlende Pflanzen
 der laufenden Woche.
 
+## Pflanzenpunkt
+
+Zähleinheit des Wochen-Trackers (ADR 0002): Jede **verschiedene
+Hauptpflanze** (Gemüse, Obst, Nüsse, Samen, Hülsenfrüchte,
+(Vollkorn-)Getreide) = **1 Punkt**; jedes verschiedene **Kraut/Gewürz** =
+**¼ Punkt**. Wochenziel: **30 Punkte**. Jede Pflanze zählt einmal pro Woche.
+
 ## Offene Begriffsfragen
 
-- Was zählt exakt als „eine Pflanze"? (z. B. verschiedene Kräuter einzeln?
-  Kaffee? Kartoffeln vs. Süßkartoffeln?) — muss vor dem Datenmodell geklärt
-  werden.
+- **Granularität:** Was heißt „verschieden"? (rote vs. gelbe Paprika;
+  Brokkoli vs. Grünkohl — beide botanisch *Brassica oleracea*)
+- **Kategorie-Umfang:** Zählen Kaffee, Olivenöl, dunkle Schokolade o. Ä.?
