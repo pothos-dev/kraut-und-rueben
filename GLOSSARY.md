@@ -47,7 +47,13 @@ sie nennenswert Ballaststoffe/Polyphenole der Pflanze liefert — nicht, wenn
 sie nur Extrakt ist. Danach zählen Kaffee und dunkle Schokolade (≥ 70 %)
 je 1 Punkt; Öle, Säfte, Wein und Tee zählen nicht.
 
+## Tech-Stack (v1)
+
+- **SvelteKit** — Full-Stack-Web-Framework (UI, SSR für Rezepte, API-Routen).
+- **Supabase** — Backend: Postgres, Auth, Row Level Security (ADR 0005 + 0007).
+
 ## Offene Begriffsfragen
 
-- **Generischer Log:** Was passiert bei „Paprika" ohne Farbangabe? (zu
+- **Generischer Log:** Was passiert bei „Paprika“ ohne Farbangabe? (zu
   klären bei der Logging-UX)
+- **Woche:** Kalenderwoche vs. rollierende 7 Tage? (Kern für Tracker-Modell)
