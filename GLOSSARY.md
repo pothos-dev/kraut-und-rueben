@@ -31,8 +31,15 @@ Hauptpflanze** (Gemüse, Obst, Nüsse, Samen, Hülsenfrüchte,
 (Vollkorn-)Getreide) = **1 Punkt**; jedes verschiedene **Kraut/Gewürz** =
 **¼ Punkt**. Wochenziel: **30 Punkte**. Jede Pflanze zählt einmal pro Woche.
 
+## Sorte
+
+Granularitäts-Ebene des Trackers (ADR 0003): Farben und Sorten einer Pflanze
+zählen **separat** (rote ≠ gelbe Paprika; Grünkohl ≠ Brokkoli). Die
+Taxonomie ist hierarchisch: Pflanze → Sorten; die Wochen-Deduplikation läuft
+auf Sorten-Ebene.
+
 ## Offene Begriffsfragen
 
-- **Granularität:** Was heißt „verschieden"? (rote vs. gelbe Paprika;
-  Brokkoli vs. Grünkohl — beide botanisch *Brassica oleracea*)
 - **Kategorie-Umfang:** Zählen Kaffee, Olivenöl, dunkle Schokolade o. Ä.?
+- **Generischer Log:** Was passiert bei „Paprika" ohne Farbangabe? (zu
+  klären bei der Logging-UX)
